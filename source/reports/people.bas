@@ -1,4 +1,4 @@
-﻿Version =20
+﻿Version =21
 VersionRequired =20
 Begin Report
     LayoutForPrint = NotDefault
@@ -12,7 +12,7 @@ Begin Report
     GridY =24
     Width =11400
     DatasheetFontHeight =11
-    ItemSuffix =7
+    ItemSuffix =8
     DatasheetGridlinesColor =14806254
     RecSrcDt = Begin
         0x83de6a571c33e440
@@ -126,7 +126,6 @@ Begin Report
             BackThemeColorIndex =1
             Begin
                 Begin Label
-                    OverlapFlags =4
                     TextAlign =1
                     Left =360
                     Top =60
@@ -145,7 +144,6 @@ Begin Report
                     LayoutCachedHeight =375
                 End
                 Begin Label
-                    OverlapFlags =4
                     TextAlign =1
                     Left =7680
                     Top =60
@@ -177,7 +175,6 @@ Begin Report
             Begin
                 Begin TextBox
                     OldBorderStyle =0
-                    OverlapFlags =4
                     IMESentenceMode =3
                     Left =360
                     Top =60
@@ -196,7 +193,6 @@ Begin Report
                 End
                 Begin ComboBox
                     LimitToList = NotDefault
-                    OverlapFlags =4
                     IMESentenceMode =3
                     ColumnCount =2
                     ListWidth =1440
@@ -224,16 +220,14 @@ Begin Report
             End
         End
         Begin PageFooter
-            Height =570
+            Height =3060
             Name ="PageFooterSection"
-            AutoHeight =1
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
             Begin
                 Begin TextBox
                     OldBorderStyle =0
-                    OverlapFlags =4
                     TextAlign =1
                     IMESentenceMode =3
                     Left =60
@@ -254,7 +248,6 @@ Begin Report
                 End
                 Begin TextBox
                     OldBorderStyle =0
-                    OverlapFlags =4
                     TextAlign =3
                     IMESentenceMode =3
                     Left =6300
@@ -272,6 +265,21 @@ Begin Report
                     LayoutCachedTop =240
                     LayoutCachedWidth =11340
                     LayoutCachedHeight =570
+                End
+                Begin Label
+                    Left =1020
+                    Top =1380
+                    Width =4044
+                    Height =300
+                    BorderColor =8355711
+                    ForeColor =8355711
+                    Name ="Label7"
+                    Caption ="I added this text box here to test in github diff"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =1020
+                    LayoutCachedTop =1380
+                    LayoutCachedWidth =5064
+                    LayoutCachedHeight =1680
                 End
             End
         End

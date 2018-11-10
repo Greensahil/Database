@@ -1,4 +1,4 @@
-﻿Version =20
+﻿Version =21
 VersionRequired =20
 Begin Form
     AutoCenter = NotDefault
@@ -12,8 +12,8 @@ Begin Form
     Width =11400
     DatasheetFontHeight =11
     ItemSuffix =5
-    Right =15735
-    Bottom =10215
+    Right =15444
+    Bottom =9096
     DatasheetGridlinesColor =14806254
     RecSrcDt = Begin
         0x69f339541c33e440
@@ -26,9 +26,6 @@ Begin Form
         0x010000006801000000000000a10700000100000001000000
     End
     AllowDatasheetView =0
-    AllowPivotTableView =0
-    AllowPivotChartView =0
-    AllowPivotChartView =0
     FilterOnLoad =0
     ShowPageMargins =0
     DisplayOnSharePointSite =1
@@ -100,7 +97,7 @@ Begin Form
             BackTint =20.0
             Begin
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =93
                     TextAlign =1
                     Left =360
                     Top =720
@@ -198,6 +195,7 @@ Begin Form
                     Height =330
                     ColumnWidth =3000
                     TabIndex =1
+                    BoundColumn =1
                     BorderColor =10921638
                     ForeColor =4138256
                     ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"30\""
@@ -207,6 +205,7 @@ Begin Form
                     RowSource ="SELECT [color_lookup].[id], [color_lookup].[color] FROM color_lookup ORDER BY [i"
                         "d]; "
                     ColumnWidths ="0;1440"
+                    OnClick ="[Event Procedure]"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =7680
@@ -226,3 +225,14 @@ Begin Form
         End
     End
 End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub favorite_color_Click()
+    MsgBox "hello world!"
+    
+End Sub
