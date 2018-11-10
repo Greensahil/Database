@@ -8,3 +8,11 @@ Function donothing()
     Next i
 'The initial line
 End Function
+
+
+'VBA Change to see how it looks in github diff
+
+
+Public Function DemoHello()
+Debug.Print "Hello world."
+End Function

@@ -12,7 +12,7 @@ Begin Report
     GridY =24
     Width =11400
     DatasheetFontHeight =11
-    ItemSuffix =8
+    ItemSuffix =10
     DatasheetGridlinesColor =14806254
     RecSrcDt = Begin
         0x83de6a571c33e440
@@ -267,8 +267,8 @@ Begin Report
                     LayoutCachedHeight =570
                 End
                 Begin Label
-                    Left =1020
-                    Top =1380
+                    Left =960
+                    Top =900
                     Width =4044
                     Height =300
                     BorderColor =8355711
@@ -276,10 +276,44 @@ Begin Report
                     Name ="Label7"
                     Caption ="I added this text box here to test in github diff"
                     GridlineColor =10921638
-                    LayoutCachedLeft =1020
+                    LayoutCachedLeft =960
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =5004
+                    LayoutCachedHeight =1200
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =6000
+                    Top =1380
+                    Width =3780
+                    Height =1128
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Text8"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =6000
                     LayoutCachedTop =1380
-                    LayoutCachedWidth =5064
-                    LayoutCachedHeight =1680
+                    LayoutCachedWidth =9780
+                    LayoutCachedHeight =2508
+                    Begin
+                        Begin Label
+                            Left =4200
+                            Top =1380
+                            Width =3168
+                            Height =300
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label9"
+                            Caption ="Report change in .bas looks like this"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =4200
+                            LayoutCachedTop =1380
+                            LayoutCachedWidth =7368
+                            LayoutCachedHeight =1680
+                        End
+                    End
                 End
             End
         End

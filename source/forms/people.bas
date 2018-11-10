@@ -11,9 +11,9 @@ Begin Form
     GridY =24
     Width =11400
     DatasheetFontHeight =11
-    ItemSuffix =5
+    ItemSuffix =8
     Right =15444
-    Bottom =9096
+    Bottom =6936
     DatasheetGridlinesColor =14806254
     RecSrcDt = Begin
         0x69f339541c33e440
@@ -216,12 +216,48 @@ Begin Form
             End
         End
         Begin FormFooter
-            Height =0
+            Height =4020
             Name ="FormFooter"
-            AutoHeight =1
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =7080
+                    Top =1200
+                    Width =2880
+                    Height =1092
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="Text6"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =7080
+                    LayoutCachedTop =1200
+                    LayoutCachedWidth =9960
+                    LayoutCachedHeight =2292
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =120
+                            Top =1140
+                            Width =1860
+                            Height =1200
+                            BorderColor =8355711
+                            ForeColor =8355711
+                            Name ="Label7"
+                            Caption ="This is what form change looks like in bas file"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =120
+                            LayoutCachedTop =1140
+                            LayoutCachedWidth =1980
+                            LayoutCachedHeight =2340
+                        End
+                    End
+                End
+            End
         End
     End
 End
