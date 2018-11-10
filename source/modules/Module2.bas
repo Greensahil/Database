@@ -6,7 +6,5 @@ Function donothing()
     For i = 1 To 10
     i = i + 1
     Next i
-    
-    
-
+'The initial line
 End Function
